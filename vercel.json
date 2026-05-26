@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+          {
+                  "src": "gasto0_v3.html",
+                  "use": "@vercel/static"
+          }
+    ],
+    "routes": [
+          {
+                  "src": "/(.*)",
+                  "dest": "/gasto0_v3.html"
+          }
+    ]
+}
